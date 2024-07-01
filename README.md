@@ -1,9 +1,14 @@
-# Syntax_analyzer
-1. Ejercicio. Crear un analizador Sintáctico (Cualquier tipo, LL, LR o sin usar estos métodos) en el Lenguaje de programación de su preferencia.
+# Semantic Analyzer
+1. Ejercicio.	Crear un analizador semántico de un compilador. (Utilizar cualquier herramienta) en el Lenguaje de programación de su preferencia.
   * Netbeans 8.2
   * Java JDK 8 2.
 
-2. Pruebas de código para realizar en el REDACTOR SEMANTICO
+2. Librerias necesarias.
+   * java_cup
+   * JFlex
+   * JDK8.2
+
+3. Pruebas de código para realizar en el REDACTOR SEMANTICO
 int main() {  
   int anthony = 0808;  
   for (int i = 0; i < 10; i++) {
@@ -12,7 +17,8 @@ int main() {
   }
 }
 
-3. Documentar Lenguaje utilizado del analizador Léxico para realizar pruebas.
+
+4. Documentar Lenguaje utilizado del analizador semántico para realizar pruebas.
   ```java
   // Inicialización de variables
         ambitoActual = "";
@@ -124,7 +130,7 @@ int main() {
         }
   ```
 
-4.Imagen de portada.
+5. Imagen de portada.
 
 ![Imagen Previsualizacion](imageSemanticAnalyzer.png)
 
